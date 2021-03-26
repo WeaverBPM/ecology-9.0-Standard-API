@@ -17,9 +17,9 @@
 
 - Example:
 
-```json
+```json5
 {
-	"key":"92B4BF9322C110E225683F048013B699",//Token+Timestamp milliseconds, then use MD5/SM3 to encrypt to generate as key;
+	"key":"92B4BF9322C110E225683F048013B699", //Token+Timestamp milliseconds, then use MD5/SM3 to encrypt to generate as key
 	"ts":"1603600893041" // Timestamp milliseconds.
 }
 ```
@@ -90,7 +90,7 @@ public static void main(String[] args) throws Exception{
 
 ## Example:
 
-```json
+```json5
 {
 	"subcompanyname":"Div001",
 	"subcompanycode":"code1",
@@ -108,7 +108,7 @@ public static void main(String[] args) throws Exception{
 
 ## Return Sample:
 
-```json
+```json5
 {
 	"code": "1", // 1: Successful, others: Failed
 	"data": {
@@ -177,7 +177,7 @@ public static void main(String[] args) throws Exception{
 
 - Sample
 
-```json
+```json5
 {
 	"departmentname":"Technical",
 	"departmentcode":"code1",
@@ -190,7 +190,7 @@ public static void main(String[] args) throws Exception{
 
 ## Return Sample: 
 
-```json
+```json5
 {
 	"code": "1", // 1: Succeeded, Others: Failed
 	"data": {
@@ -255,7 +255,7 @@ public static void main(String[] args) throws Exception{
 
 - Sample
 
-```json
+```json5
 {
 	"jobtitlename":"Manager",
 	"pagesize":20,
@@ -267,7 +267,7 @@ public static void main(String[] args) throws Exception{
 
 ## Return Sample: 
 
-```json
+```json5
 {
 	"code": "1", // 1: Succeeded, Others: Failed
 	"data": {
@@ -334,7 +334,7 @@ public static void main(String[] args) throws Exception{
 
 - Sample
 
-```json
+```json5
 {
 	"workcode":"S001"
 }
@@ -346,7 +346,7 @@ public static void main(String[] args) throws Exception{
 
 
 
-```json
+```json5
 {
     "code": "1", //1: Succeeded, Others: Failed
     "data": {
@@ -443,7 +443,7 @@ Explanation: During the synchronization, if the data requested does not exist in
 
 - Sample
 
-```json
+```json5
 [
     {
         "@action":"add", //add: Insert New, edit: Update
@@ -462,7 +462,7 @@ Explanation: During the synchronization, if the data requested does not exist in
 
 ## Return Sample: 
 
-```json
+```json5
 {
     "result": {
         "D001": {
@@ -500,7 +500,7 @@ Explanation: During the synchronization, if the data requested does not exist in
 
 - Sample
 
-```json
+```json5
 [
     {
         "@action":"add", //add: Insert New, edit: Update, delete: Update "canceled" field value
@@ -520,7 +520,7 @@ Explanation: During the synchronization, if the data requested does not exist in
 
 ## Return Sample: 
 
-```json
+```json5
 {
     "result": {
         "Dep001": {
@@ -558,7 +558,7 @@ Explanation: During the synchronization, if the data requested does not exist in
 
 - Sample
 
-```json
+```json5
 [
     {
         "@action":"add", //add: Insert New, edit: Update
@@ -573,7 +573,7 @@ Explanation: During the synchronization, if the data requested does not exist in
 
 ## Return Sample: 
 
-```json
+```json5
 {
     "result": {
         "JOB0001": { //Job Code
@@ -613,7 +613,7 @@ For this interface, validation is against to the **workcode**, if the workcode e
 
 - Sample
 
-```json
+```json5
 [
     {
         "workcode":"S001a",
@@ -670,7 +670,7 @@ For this interface, validation is against to the **workcode**, if the workcode e
 
 ## Return Sample: 
 
-```json
+```json5
 {
     "result": {
         "S001b": {
