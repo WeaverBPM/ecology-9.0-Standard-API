@@ -49,7 +49,7 @@ public static void main(String[] args) throws Exception{
 
   - Token Method 2: Insert the parameters in the body:
 
-  ![Token_Method 2](images/token_method2.png)
+  ![Token_Method 2](Images/token_method2.png)
 
 
 
