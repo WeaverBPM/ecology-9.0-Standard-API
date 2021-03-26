@@ -19,7 +19,7 @@
 
 ```json
 {
-	"key":"92B4BF9322C110E225683F048013B699",// {Token}+{Timestamp milliseconds}, then use MD5/SM3 to encrypt to generate as key;
+	"key":"92B4BF9322C110E225683F048013B699",//{Token}+{Timestamp milliseconds}, then use MD5/SM3 to encrypt to generate as key;
 	"ts":"1603600893041" // Timestamp milliseconds.
 }
 ```
@@ -49,7 +49,7 @@ public static void main(String[] args) throws Exception{
 
   - Token Method 2: Insert the parameters in the body:
 
-  ![](\images\token_method2.png)
+  !(images/token_method1.png)
 
 
 
