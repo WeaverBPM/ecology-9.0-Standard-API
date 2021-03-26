@@ -362,7 +362,7 @@ public static void main(String[] args) throws Exception{
                 "subcompanyname": "Singapore", //Division Name
                 "joblevel": "0", //Job level: From 0 - 9
                 "startdate": "",
-                "password": "C0F7EE31DF2E44963AD1A5B9083601F4",
+                "password": "xxxx",
                 "subcompanycode": "", //Division Code
                 "jobactivitydesc": "",//Job Description
                 "bememberdate": "",//Only used in China
