@@ -26,7 +26,7 @@
 
 - key generate methods, java sample: 
 
-```java class:"lineno"
+```javascript class:"lineno"
 public static void main(String[] args) throws Exception{
 	String key = "5936562a-d47c-4a29-9b74-b310e6c971b7" ; //retrieve index method, please browse /hrm/websevice/hrm_webservice_config.jsp
 	long l = System.currentTimeMillis() ; // Timestamp milliseconds
