@@ -19,7 +19,7 @@
 
 ```json
 {
-	"key":"92B4BF9322C110E225683F048013B699",//{Token}+{Timestamp milliseconds}, then use MD5/SM3 to encrypt to generate as key;
+	"key":"92B4BF9322C110E225683F048013B699",//Token+Timestamp milliseconds, then use MD5/SM3 to encrypt to generate as key;
 	"ts":"1603600893041" // Timestamp milliseconds.
 }
 ```
@@ -43,7 +43,7 @@ public static void main(String[] args) throws Exception{
 
   - Token Method 1: Use the header method, insert key, ts parameters.
 
-  ![](C:\Users\Kenyu\KAPTECH CONSULTING PTE. LTD\Ken Wei - Weaver Oversea Project\Advance Features Center\03 HR API\1b.png)
+  ![Token_Method 1](Images/token_method1.png)
 
   
 
