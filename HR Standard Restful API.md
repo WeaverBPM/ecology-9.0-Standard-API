@@ -49,7 +49,7 @@ public static void main(String[] args) throws Exception{
 
   - Token Method 2: Insert the parameters in the body:
 
-  ![](C:\Users\Kenyu\KAPTECH CONSULTING PTE. LTD\Ken Wei - Weaver Oversea Project\Advance Features Center\03 HR API\1a.png)
+  ![](\images\token_method2.png)
 
 
 
